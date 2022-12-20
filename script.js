@@ -18,8 +18,6 @@ function generatePassword() {
   const lcLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   const ucLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
   const nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-
-  //TODO: Figure out how to get the backslash to work
   const specials = ["@", "%", "+", "\\", "/", "\'", "!", "#", "$", "^", "?", ":", ",", "(", ")", "\)", "{", "}", "[", "]", "~", "\`", "-", "_", "."];
 
   //The following variables store the user's choices about the characters to be included in the password
@@ -71,5 +69,12 @@ function generatePassword() {
       allCharacters.push(specials[i]);
     }
   }
-  console.log(allCharacters);
+  
+  //Generate and return the password
+  let pwArray = [];
+  for (let i = 0; i < pwLength; i++) {
+    pwArray.push(allCharacters[Math.floor(Math.random() * allCharacters.length)]);
+  }
+
+  return pwArray.join("");
 }  
