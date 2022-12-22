@@ -48,18 +48,18 @@ generateBtn.addEventListener("click", writePassword);
 
 The screenshot below shows the password generator. To begin, click the "Generate Password" button.
 
-[![webpage with an empty textbox and a button](./assets/PwGen.jpg)](https://rmoscoe.github.io/password-generator/)
+[![webpage with an empty textbox and a button](./assets/images/PwGen.jpg)](https://rmoscoe.github.io/password-generator/)
 
 <br/>
 After clicking the button, a series of prompts and confirmations allows the user to specify the length of the password and the types of characters to include, as shown below.
 
-[![webpage with a button and a popup with a textbox and a button](./assets/Prompt.jpg)](https://rmoscoe.github.io/password-generator)
+[![webpage with a button and a popup with a textbox and a button](./assets/images/Prompt.jpg)](https://rmoscoe.github.io/password-generator)
 
 <br/>
 
 A password is automatically generated, as shown below.
 
-[![webpage with a textbox and a button](./assets/Password.jpg)](https://rmoscoe.github.io/password-generator)
+[![webpage with a textbox and a button](./assets/images/Password.jpg)](https://rmoscoe.github.io/password-generator)
 
 <br/>
 
