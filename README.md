@@ -74,7 +74,7 @@ I had prior knowledge of most of the concepts required to complete this project,
 ### Ryan Moscoe 
 
 
-* [Portfolio](https://rmoscoe.github.io/portfolio/)
+* [Portfolio](https://rmoscoe.github.io/my-portfolio/)
 * [LinkedIn](https://www.linkedin.com/in/ryan-moscoe-8652973/)
 * [Github](https://github.com/rmoscoe)
 <br/>
